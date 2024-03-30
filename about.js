@@ -3,6 +3,7 @@
 let contentSwiper = new Swiper(".swiper.is-milestone", {
     slidesPerView: 'auto',
     updateOnWindowResize: true,
+    slideActiveClass: "is-active",
     loop: false,
     speed: 400,
     keyboard: true,
@@ -15,7 +16,7 @@ let contentSwiper = new Swiper(".swiper.is-milestone", {
     }
   });
 let dateSwiper = new Swiper(".swiper.is-date", {
-    slidesPerView: 3,
+    slidesPerView: 'auto',
     updateOnWindowResize: true,
     direction: 'vertical',
     centeredSlides: 'true',
@@ -23,4 +24,4 @@ let dateSwiper = new Swiper(".swiper.is-date", {
     speed: 400,
   });
 contentSwiper.controller.control = dateSwiper;
-dateSwiper.controller.control = contentSwiper;
+dateSwiper.controller.control = contentSwiper;
