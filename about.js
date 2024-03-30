@@ -1,3 +1,4 @@
+// ABOUT PAGE JS
 // MILESTIONE SLIDER
 let contentSwiper = new Swiper(".swiper.is-milestone", {
     slidesPerView: 'auto',

@@ -1,3 +1,4 @@
+// INDEX PAGE JS
 // PORTFOLIO SLIDER
 $(".slider_main-component-wrapper").each(function (index) {
     const swiper = new Swiper($(this).find(".swiper")[0], {
